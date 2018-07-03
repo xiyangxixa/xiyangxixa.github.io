@@ -177,7 +177,7 @@ a {outline: none;}
 }
 .contenr{
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 50px; 
 }
 .contenr_left{
     float: left;
@@ -218,122 +218,55 @@ a {outline: none;}
 .hold ul li a:hover{
     color: #fff;
 }
-.content_right{
+.contenr_right{
     float: right;
-    
+    width: 916px;
+    background: #f4e9d5;
 }
 .word{
-    background: url(../img/yiyuanxinwen-right-tit-back.png);
-    height: 60px;
-    width: 917px;
-    border-bottom: #aa0e25;
-    overflow: hidden;
-    border-bottom: 1px solid #790000;
+    width: 866px;
+    text-align: center;
+    margin-left: 20px;
+    border-bottom: 1px solid #444;
+    margin-bottom: 20px;
+}
+.word div{
+    font-size: 24px;
+    margin-left: 20px;
+    color: #790000;
+    margin-bottom: 20px;
 }
 .word ul{
-    width: 147px;
-    height: 46px;
-    background: #790000;
-    text-align: center;
-    line-height: 46px;
-    margin-left: 42%;
-    margin-top: 7px;
+    float: left;
+    margin-left: 30%;
+    margin-bottom: 10px;
 }
 .word ul li{
-    font-size:24px;
-    color: #fff;
+    float: left;
+    margin-right: 10px;
 }
 .beer{
-    width: 915px;
-    height: 225px;
+    width: 866px;
+    margin-left: 20px;
 }
-.box img{
-    float: left ;
-    margin-top: 30px;
-    margin-left: 35px;
+.beer p{
+    margin-bottom: 5px;
+    font-size: 14px;
 }
 .beer ul{
-    float: left;
-    margin-top: 100px;
-    margin-left: 20px;
-}
-.beer ul li{
-    margin-bottom: 15px;
-}
-.chier{
-    width: 916px;
-    height: 26px;
-    line-height:26px;
-    margin-bottom: 10px;
-}
-.chier ul{
-    width: 866px;
-    margin-left: 20px;
-    border-bottom: 1px solid #790000;
-}
-.chier ul li{
-    font-size: 16px;
-    color: #9d5d54
-}
-.feel{
-    width: 866px;
-    margin-left: 20px;
-    margin-bottom: 30px;
-}
-.feel div{
-    text-indent:2em;
-    margin-bottom: 15px;
-}
-.feel p{
-    text-indent:2em;
-	letter-spacing:2px;
-	font-size: 12px;
-    line-height: 22px;
-}
-.feel p:nth-of-type(3){
-    margin-top: 15px;
-}
-.some{
-    width: 886px;
-    height: 180px;
-    border-bottom: 1px dashed #d3cdc6;
-    margin-left: 20px;
-    margin-bottom: 10px;
-}
-.boot{
-    width: 886px;
-}
-.boot div{
-    width: 886px;
-    height: 26px;
-    line-height: 26px;
-    border-bottom: 1px solid #790000;
-    margin-bottom: 10px;
-}
-.boot div ul li{
-    font-size: 16px;
-    color: #790000;
-}
-.boot p{
-    font-size: 15px;
-    margin-bottom: 10px;
-    text-decoration: underline;
-}
-.bar{
-    width: 866px;
-    margin-left: 20px;
-}
-.bar_left{
-    display: inline;
-    border: 1px solid #aa0e25;
-    color: #790000;
-    width: 55px;
-    height: 19px;
-}
-.bar_right{
     float: right;
-    border: 1px solid #aa0e25;
-    color: #790000;
+    text-align: center;
+}.beer ul li{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.of{
+    width: 886px;
+    margin-left: 20px;
+}
+.of p{
+    margin-bottom: 5px;
+    font-size: 14px;
 }
 .footer{
     width: 100%;
@@ -356,6 +289,9 @@ a {outline: none;}
     margin-right: 36px;
     font-size: 14px;
     position: relative;
+    color: #790000;
+}
+.wolf ul li a{
     color: #790000;
 }
 .molik:after{
@@ -412,5 +348,4 @@ a {outline: none;}
 .lose ul {
     float: left;
     margin-left: 150px;
-}          
-
+} 
